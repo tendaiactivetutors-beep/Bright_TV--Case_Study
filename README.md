@@ -36,29 +36,35 @@ The project answers key business questions:
 . High-performing vs underperforming content
 .Channel-level engagement comparison
 . Viewer retention patterns
+
 ##💡 **Key Insights (Generalized to Dataset)**
 . **Time-Based Engagement:** Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
 . **Content Duration Impact:** Shorter content tends to drive higher completion rates and repeat engagement.
 . **Regional Contribution:** Certain regions contribute a disproportionate share of total viewership.
 . **Audience Segmentation:** Specific age groups and demographics dominate platform usage.
 . **Channel Performance**: A small number of channels/content categories drive the majority of engagement.
+   
 #📈 **Strategic Recommendations**
 ##1. Improve Low-Engagement Periods (e.g., Midweek)
 . Introduce scheduled content drops during low-traffic days
 . Use recap/highlight content to re-engage users
 . Implement targeted notifications to drive midweek activity
+
 ##2. Grow the User Base
 . Invest in high-performing content formats identified in the data
 . Use data-driven marketing campaigns targeting high-value segments
 . Optimize onboarding and discovery for new users
+
 ##3. Maximize Content & Channel Performance
 . Replicate success patterns from top-performing channels
 . Create derivative content (clips, highlights, summaries)
 . Promote high-engagement categories during peak times
+
 ##4. Regional Expansion Strategy
 . Develop localized content tailored to high-growth regions
 . Introduce culturally relevant programming to expand reach
 . Use regional insights to guide marketing spend allocation
+
 ##🛠️ **Tools & Technologies**
 .📊 SQL Analysis (Databricks) – Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
 . Time-based transformations (timestampadd, hour, date_format)
@@ -67,6 +73,7 @@ The project answers key business questions:
 . Canva – Presentation design
 . Miro – Planning and workflow structuring
 . GitHub – Project documentation
+
 ##📊 **Deliverables**
 ##. SQL queries for trend and segmentation analysis
 ##. Interactive Databricks/ Power BI dashboards
