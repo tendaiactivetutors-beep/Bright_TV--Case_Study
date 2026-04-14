@@ -28,10 +28,12 @@ The project answers key business questions:
 . Growth patterns over time (daily, weekly, monthly)
 . Peak vs off-peak viewing periods
 . Active user distribution across regions
+
 2._ **Consumption Drivers**_
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
+
 3. _**Content Performance**_
 . High-performing vs underperforming content
 .Channel-level engagement comparison
@@ -39,9 +41,13 @@ The project answers key business questions:
 
 ##💡 **Key Insights (Generalized to Dataset)**
 . **Time-Based Engagement:** Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
+
 . **Content Duration Impact:** Shorter content tends to drive higher completion rates and repeat engagement.
+
 . **Regional Contribution:** Certain regions contribute a disproportionate share of total viewership.
+
 . **Audience Segmentation:** Specific age groups and demographics dominate platform usage.
+
 . **Channel Performance**: A small number of channels/content categories drive the majority of engagement.
    
 #📈 **Strategic Recommendations**
