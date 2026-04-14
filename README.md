@@ -86,3 +86,7 @@ The project answers key business questions:
 ##. Business insights and recommendations
 ##. Presentation
 
+👤 Author
+   Tendai Shumba
+GitHub: https://github.com/tendaiactivetutors-beep
+Email: tendai.activetutors@gmail.com
