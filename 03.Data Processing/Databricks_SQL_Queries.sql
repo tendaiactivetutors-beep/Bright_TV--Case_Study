@@ -9,14 +9,35 @@ FROM `workspace`.`default`.`user_pfofiles` AS U
 FULL OUTER JOIN `workspace`.`default`.`viewership` AS V
     ON U.UserID = V.UserID;
 
------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+--Combining the 2 tables  (LEFT JOIN)
+SELECT 
+    u.*,
+    v.*
+FROM `workspace`.`default`.`user_pfofiles` AS U
+LEFT JOIN `workspace`.`default`.`viewership` AS V
+ON U.UserID = V.UserID;
+
+-----------------------------------------------------------------------------------------------------
+--Combining the 2 tables  (RIGHT JOIN)
+SELECT 
+    u.*,
+    v.*
+FROM `workspace`.`default`.`user_pfofiles` AS U
+RIGHT JOIN `workspace`.`default`.`viewership` AS V
+ON U.UserID = V.UserID;
+
+-----------------------------------------------------------------------------------------------------
+
 ---Converting UTC time to SA time
 SELECT 
     *,
     from_utc_timestamp(TO_TIMESTAMP(RecordDate2, 'yyyy/MM/dd HH:mm'), 'Africa/Johannesburg') AS sast_timestamp
 FROM `workspace`.`default`.`viewership`;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
+
 --- A. USER + USAGE TRENDS (JOINED)
 ---Query 1. Finding Usage by Age Group to show Who drives consumption
 SELECT 
@@ -41,7 +62,9 @@ GROUP BY
     END
 ORDER BY Total_sessions DESC;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
+
 ----Query 2. Usage by Province to show Regional demand
 
 SELECT 
@@ -52,6 +75,7 @@ JOIN `workspace`.`default`.`viewership` v
     ON u.UserID = v.userid
 GROUP BY u.Province
 ORDER BY total_sessions DESC;
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---Query 3. Peak Viewing Time (SA Time) to view Peak usage hours
@@ -64,6 +88,7 @@ JOIN `workspace`.`default`.`user_pfofiles` u
 GROUP BY HOUR(TO_TIMESTAMP(v.RecordDate2, 'yyyy/MM/dd HH:mm') + INTERVAL 2 HOURS)
 ORDER BY Hour_SA;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---Query 4. Usage by Day of Week to view Weekend vs weekday behavior
 SELECT 
@@ -74,6 +99,7 @@ JOIN `workspace`.`default`.`user_pfofiles` u
     ON u.UserID = v.userid
 GROUP BY Day_name
 ORDER BY Total_sessions DESC;
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -88,6 +114,7 @@ JOIN `workspace`.`default`.`viewership` V
     ON u.UserID = v.userid
 GROUP BY u.Gender, v.Channel2
 ORDER BY Total_views DESC;
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---Query B. Average Session Duration
@@ -128,6 +155,7 @@ JOIN `workspace`.`default`.`user_pfofiles` u
 GROUP BY Day_name
 ORDER BY Total_sessions ASC;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---Query . Best Performing Content
 SELECT 
@@ -135,7 +163,7 @@ SELECT
     COUNT(*) AS Total_views
 FROM `workspace`.`default`.`viewership` v
 JOIN `workspace`.`default`.`user_pfofiles` u
-    ON u.UserID = v.userid
+ON u.UserID = v.userid
 GROUP BY v.Channel2
 ORDER BY Total_views DESC
 LIMIT 5;
@@ -153,6 +181,7 @@ WHERE date_format(TO_TIMESTAMP(v.RecordDate2, 'yyyy/MM/dd HH:mm') + INTERVAL 2 H
 GROUP BY Day_name, v.Channel2
 ORDER BY Total_views ASC;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ---B. User Engagement Levels
@@ -166,6 +195,7 @@ LEFT JOIN `workspace`.`default`.`viewership` v
 GROUP BY u.UserID
 ORDER BY total_sessions DESC;
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---Query . Low Engagement Users (Target Group)
 SELECT 
@@ -176,6 +206,7 @@ LEFT JOIN `workspace`.`default`.`viewership` v
     ON u.UserID = v.UserID
 GROUP BY u.UserID
 HAVING COUNT(v.UserID) < 5;
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ---THE BIG DATA FOR DASHBAORD
