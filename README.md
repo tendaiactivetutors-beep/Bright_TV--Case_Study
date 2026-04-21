@@ -1,5 +1,6 @@
 # Bright_TV--Case_Study
 Bright_TV Customer Value Management (CVM) Analysis
+
 🎯 **Project Objective**
 
 ##This project delivers data-driven insights to support BrightTV’s Customer Value Management (CVM) team in growing the platform’s subscription base within the current financial year.
