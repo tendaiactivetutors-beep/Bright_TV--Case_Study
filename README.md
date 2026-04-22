@@ -35,21 +35,21 @@ The project answers key business questions:
 
 ##What is the User & Usage Trends?
    
-. Growth patterns over time (daily, weekly, monthly)?
-. Peak vs off-peak viewing periods?
-. Active user distribution across regions?
+#Growth patterns over time (daily, weekly, monthly)?
+#Peak vs off-peak viewing periods?
+#Active user distribution across regions?
 
 ##What are Consumption Drivers?
 
-. Impact of content type and duration on engagement
-. Time-based behavior (day of week, time of day)
-. Demographic influence on viewing habits
+#Impact of content type and duration on engagement
+#Time-based behavior (day of week, time of day)
+#Demographic influence on viewing habits
 
 ##Content Performance
    
-. High-performing vs underperforming content
-.Channel-level engagement comparison
-. Viewer retention patterns
+#High-performing vs underperforming content
+#Channel-level engagement comparison
+#Viewer retention patterns
 
 ## 💡Key Insights (Generalized to Dataset)
 
