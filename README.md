@@ -26,19 +26,19 @@ This dataset enables both behavioral analysis and performance tracking across ti
 
 The project answers key business questions:
 
-1. What is the User & Usage Trends?
+# What is the User & Usage Trends?
    
 . Growth patterns over time (daily, weekly, monthly)?
 . Peak vs off-peak viewing periods?
 . Active user distribution across regions?
 
-2._ What are Consumption Drivers?**
+# What are Consumption Drivers?
 
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
 
-3. _**Content Performance**
+# Content Performance
    
 . High-performing vs underperforming content
 .Channel-level engagement comparison
