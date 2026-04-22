@@ -27,16 +27,19 @@ This dataset enables both behavioral analysis and performance tracking across ti
 The project answers key business questions:
 
 1. What is the User & Usage Trends?
+   
 . Growth patterns over time (daily, weekly, monthly)?
 . Peak vs off-peak viewing periods?
 . Active user distribution across regions?
 
 2._ What are Consumption Drivers?**
+
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
 
 3. _**Content Performance**
+   
 . High-performing vs underperforming content
 .Channel-level engagement comparison
 . Viewer retention patterns
@@ -60,25 +63,25 @@ Specific age groups and demographics dominate platform usage.
    
 #📈 **Strategic Recommendations**
 
-##1. Improve Low-Engagement Periods (e.g., Midweek)
+## Improve Low-Engagement Periods (e.g., Midweek)
 
 . Introduce scheduled content drops during low-traffic days
 . Use recap/highlight content to re-engage users
 . Implement targeted notifications to drive midweek activity
 
-##2. Grow the User Base
+## Grow the User Base
 
 . Invest in high-performing content formats identified in the data
 . Use data-driven marketing campaigns targeting high-value segments
 . Optimize onboarding and discovery for new users
 
-##3. Maximize Content & Channel Performance
+## Maximize Content & Channel Performance
 
 . Replicate success patterns from top-performing channels
 . Create derivative content (clips, highlights, summaries)
 . Promote high-engagement categories during peak times
 
-##4. Regional Expansion Strategy
+## Regional Expansion Strategy
 
 . Develop localized content tailored to high-growth regions
 . Introduce culturally relevant programming to expand reach
