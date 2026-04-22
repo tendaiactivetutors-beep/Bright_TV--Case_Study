@@ -18,10 +18,14 @@ Bright_TV Customer Value Management (CVM) Analysis
 # 📂 Dataset Overview
 
 The analysis is based on BrightTV’s transactional viewership dataset, which includes:
-. User attributes (age, gender, region, etc.)
-. Viewing activity (date, time, duration, frequency)
-. Content metadata (channel, category, content type, duration)
-. Engagement metrics (views, watch time, repeat usage)
+
+#User attributes (age, gender, region, etc.)
+
+#Viewing activity (date, time, duration, frequency)
+
+#Content metadata (channel, category, content type, duration)
+
+#Engagement metrics (views, watch time, repeat usage)
 
 This dataset enables both behavioral analysis and performance tracking across time and segments.
 
