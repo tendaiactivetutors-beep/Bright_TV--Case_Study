@@ -6,6 +6,7 @@ Bright_TV Customer Value Management (CVM) Analysis
 ##This project delivers data-driven insights to support BrightTV’s Customer Value Management (CVM) team in growing the platform’s subscription base within the current financial year.
 
 ##The analysis focuses on identifying:
+
 . _User behavior patterns
 . Content consumption trends
 . Regional and demographic drivers
@@ -25,22 +26,26 @@ This dataset enables both behavioral analysis and performance tracking across ti
 
 The project answers key business questions:
 
-1. _**User & Usage Trends**_
+1. _**User & Usage Trends**
+   
 . Growth patterns over time (daily, weekly, monthly)
 . Peak vs off-peak viewing periods
 . Active user distribution across regions
 
-2._ **Consumption Drivers**_
+2._ **Consumption Drivers**
+
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
 
-3. _**Content Performance**_
+3. _**Content Performance**
+   
 . High-performing vs underperforming content
 .Channel-level engagement comparison
 . Viewer retention patterns
 
 ##💡 **Key Insights (Generalized to Dataset)**
+
 . **Time-Based Engagement:** Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
 
 . **Content Duration Impact:** Shorter content tends to drive higher completion rates and repeat engagement.
@@ -52,28 +57,34 @@ The project answers key business questions:
 . **Channel Performance**: A small number of channels/content categories drive the majority of engagement.
    
 #📈 **Strategic Recommendations**
+
 ##1. Improve Low-Engagement Periods (e.g., Midweek)
+
 . Introduce scheduled content drops during low-traffic days
 . Use recap/highlight content to re-engage users
 . Implement targeted notifications to drive midweek activity
 
 ##2. Grow the User Base
+
 . Invest in high-performing content formats identified in the data
 . Use data-driven marketing campaigns targeting high-value segments
 . Optimize onboarding and discovery for new users
 
 ##3. Maximize Content & Channel Performance
+
 . Replicate success patterns from top-performing channels
 . Create derivative content (clips, highlights, summaries)
 . Promote high-engagement categories during peak times
 
 ##4. Regional Expansion Strategy
+
 . Develop localized content tailored to high-growth regions
 . Introduce culturally relevant programming to expand reach
 . Use regional insights to guide marketing spend allocation
 
 ##🛠️ **Tools & Technologies**
-.📊 SQL Analysis (Databricks) – Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
+
+📊 SQL Analysis (Databricks) – Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
 . Time-based transformations (timestampadd, hour, date_format)
 . Excel – Pivot Charts/ Visualisation
 . Databricks – Dashboard creation and visualization
@@ -82,12 +93,14 @@ The project answers key business questions:
 . GitHub – Project documentation
 
 ##📊 **Deliverables**
-##. SQL queries for trend and segmentation analysis
-##. Interactive Databricks/ Power BI dashboards
-##. Business insights and recommendations
-##. Presentation
+
+. SQL queries for trend and segmentation analysis
+. Interactive Databricks/ Power BI dashboards
+. Business insights and recommendations
+. Presentation
 
 ## Special Notice
+
 **. GitHub does not handle PDFs particularly well—**it mostly just accommodates them. Please note when you try to view it and it gives you an error, the file isn’t corrupted; it’s likely using certain fonts or characters that GitHub can’t properly display.**
 
 **.Note**:If you want to view the PDF file and got an error, you will need to download it first.
