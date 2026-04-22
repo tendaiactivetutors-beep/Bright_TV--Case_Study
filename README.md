@@ -7,7 +7,7 @@ Bright_TV Customer Value Management (CVM) Analysis
 
 ##The analysis focuses on identifying:
 
-. _User behavior patterns
+. User behavior patterns
 . Content consumption trends
 . Regional and demographic drivers
 . Opportunities to increase engagement and retention
@@ -26,35 +26,37 @@ This dataset enables both behavioral analysis and performance tracking across ti
 
 The project answers key business questions:
 
-1. _**User & Usage Trends**
-   
-. Growth patterns over time (daily, weekly, monthly)
-. Peak vs off-peak viewing periods
-. Active user distribution across regions
+1. What is the User & Usage Trends?
+. Growth patterns over time (daily, weekly, monthly)?
+. Peak vs off-peak viewing periods?
+. Active user distribution across regions?
 
-2._ **Consumption Drivers**
-
+2._ What are Consumption Drivers?**
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
 
 3. _**Content Performance**
-   
 . High-performing vs underperforming content
 .Channel-level engagement comparison
 . Viewer retention patterns
 
 ##💡 **Key Insights (Generalized to Dataset)**
 
-. **Time-Based Engagement:** Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
+**Time-Based Engagement:** 
+. Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
 
-. **Content Duration Impact:** Shorter content tends to drive higher completion rates and repeat engagement.
+**Content Duration Impact:** 
+. Shorter content tends to drive higher completion rates and repeat engagement.
 
-. **Regional Contribution:** Certain regions contribute a disproportionate share of total viewership.
+**Regional Contribution:** 
+. Certain regions contribute a disproportionate share of total viewership.
 
-. **Audience Segmentation:** Specific age groups and demographics dominate platform usage.
+.**Audience Segmentation:** 
+Specific age groups and demographics dominate platform usage.
 
-. **Channel Performance**: A small number of channels/content categories drive the majority of engagement.
+**Channel Performance**: 
+. A small number of channels/content categories drive the majority of engagement.
    
 #📈 **Strategic Recommendations**
 
@@ -84,7 +86,9 @@ The project answers key business questions:
 
 ##🛠️ **Tools & Technologies**
 
-📊 SQL Analysis (Databricks) – Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
+📊 SQL Analysis (Databricks) 
+
+. Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
 . Time-based transformations (timestampadd, hour, date_format)
 . Excel – Pivot Charts/ Visualisation
 . Databricks – Dashboard creation and visualization
@@ -109,3 +113,4 @@ The project answers key business questions:
    Tendai Shumba
 GitHub: https://github.com/tendaiactivetutors-beep
 Email: tendai.activetutors@gmail.com
+
