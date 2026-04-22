@@ -1,7 +1,7 @@
 # Bright_TV--Case_Study
 Bright_TV Customer Value Management (CVM) Analysis
 
-🎯 **Project Objective**
+# 🎯 Project Objective
 
 ##This project delivers data-driven insights to support BrightTV’s Customer Value Management (CVM) team in growing the platform’s subscription base within the current financial year.
 
@@ -12,7 +12,7 @@ Bright_TV Customer Value Management (CVM) Analysis
 . Regional and demographic drivers
 . Opportunities to increase engagement and retention
 
-##📂 **Dataset Overview**
+# 📂 Dataset Overview
 
 The analysis is based on BrightTV’s transactional viewership dataset, which includes:
 . User attributes (age, gender, region, etc.)
@@ -22,74 +22,80 @@ The analysis is based on BrightTV’s transactional viewership dataset, which in
 
 This dataset enables both behavioral analysis and performance tracking across time and segments.
 
-##🔍 **Analysis Focus Areas**
+# 🔍 Analysis Focus Areas
 
 The project answers key business questions:
 
-# What is the User & Usage Trends?
+##What is the User & Usage Trends?
    
 . Growth patterns over time (daily, weekly, monthly)?
 . Peak vs off-peak viewing periods?
 . Active user distribution across regions?
 
-# What are Consumption Drivers?
+##What are Consumption Drivers?
 
 . Impact of content type and duration on engagement
 . Time-based behavior (day of week, time of day)
 . Demographic influence on viewing habits
 
-# Content Performance
+##Content Performance
    
 . High-performing vs underperforming content
 .Channel-level engagement comparison
 . Viewer retention patterns
 
-##💡 **Key Insights (Generalized to Dataset)**
+## 💡Key Insights (Generalized to Dataset)
 
 **Time-Based Engagement:** 
+
 . Viewership varies significantly by day and time, with identifiable peak and low-consumption periods.
 
 **Content Duration Impact:** 
+
 . Shorter content tends to drive higher completion rates and repeat engagement.
 
 **Regional Contribution:** 
+
 . Certain regions contribute a disproportionate share of total viewership.
 
 .**Audience Segmentation:** 
+
 Specific age groups and demographics dominate platform usage.
 
 **Channel Performance**: 
+
 . A small number of channels/content categories drive the majority of engagement.
    
-#📈 **Strategic Recommendations**
+# 📈Strategic Recommendations
 
-## Improve Low-Engagement Periods (e.g., Midweek)
+
+##Improve Low-Engagement Periods (e.g., Midweek)
 
 . Introduce scheduled content drops during low-traffic days
 . Use recap/highlight content to re-engage users
 . Implement targeted notifications to drive midweek activity
 
-## Grow the User Base
+##Grow the User Base
 
 . Invest in high-performing content formats identified in the data
 . Use data-driven marketing campaigns targeting high-value segments
 . Optimize onboarding and discovery for new users
 
-## Maximize Content & Channel Performance
+##Maximize Content & Channel Performance
 
 . Replicate success patterns from top-performing channels
 . Create derivative content (clips, highlights, summaries)
 . Promote high-engagement categories during peak times
 
-## Regional Expansion Strategy
+##Regional Expansion Strategy
 
 . Develop localized content tailored to high-growth regions
 . Introduce culturally relevant programming to expand reach
 . Use regional insights to guide marketing spend allocation
 
-##🛠️ **Tools & Technologies**
+# 🛠️ Tools & Technologies
 
-📊 SQL Analysis (Databricks) 
+**📊 SQL Analysis (Databricks)**
 
 . Data processing & analysis, Data extraction, joins, aggregations (between user and transaction tables)
 . Time-based transformations (timestampadd, hour, date_format)
@@ -99,7 +105,7 @@ Specific age groups and demographics dominate platform usage.
 . Miro – Planning and workflow structuring
 . GitHub – Project documentation
 
-##📊 **Deliverables**
+#📊 *Deliverables**
 
 . SQL queries for trend and segmentation analysis
 . Interactive Databricks/ Power BI dashboards
