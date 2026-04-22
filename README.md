@@ -7,10 +7,13 @@ Bright_TV Customer Value Management (CVM) Analysis
 
 ##The analysis focuses on identifying:
 
-*User behavior patterns*
-*Content consumption trends*
-*Regional and demographic drivers*
-*Opportunities to increase engagement and retention*
+#User behavior patterns
+
+#Content consumption trends
+
+#Regional and demographic drivers
+
+#Opportunities to increase engagement and retention
 
 # 📂 Dataset Overview
 
